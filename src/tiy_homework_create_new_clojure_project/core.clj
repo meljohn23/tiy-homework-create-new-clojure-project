@@ -1,0 +1,41 @@
+(ns tiy-homework-create-new-clojure-project.core)
+
+(defn -main []
+
+  (println "Hello World"))
+
+(println (str "I wandered lonely as a cloud,"))
+(println (str "That floats on high o'er vales and hills."))
+(println (str "When all at once I saw a crowd"))
+(println (str "A host, of golden daffodils"))
+(println (str "Beside the lake, beneath the trees,"))
+(println (str "Fluttering and dancing in the breeze." "\n"))
+(println (str "Continuous as the stars that shine"))
+(println (str "And twinkle on the milky way,"))
+(println (str "They stretched in never-ending line."))
+(println (str "Along the margin of a bay:"))
+(println (str "Ten thousand saw I at a glance."))
+(println (str "Tossing their heads in sprightly dance." "\n"))
+(println (str "The waves beside them danced;"))
+(println (str "but they Out-did the sparkling waves in glee:"))
+(println (str "A poet could not but be gay,"))
+(println (str "In such a jocund company:"))
+(println (str "I gazed--and gazed--but little thought"))
+(println (str "What wealth the show to me had brought:" "\n"))
+(println (str "For oft, when on my couch I lie"))
+(println (str "In vacant or in pensive mood,"))
+(println (str "They flash upon that inward eye"))
+(println (str "Which is the bliss of solitude;"))
+(println (str "And then my heart with pleasure fills,"))
+(println (str "And dances with the daffodils." "\n" "\n" "\n"))
+
+(println (+ 1 2 3 47))
+(println (- 100 3 56))
+(println (* 4 5 6))
+(println (/ 21 7))
+(println (mod 15 3))
+(println (mod 15 2))
+(println (* (+ 1 2 3 47) (- 2 1)))
+
+
+(-main)
